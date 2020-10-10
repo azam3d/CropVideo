@@ -13,6 +13,9 @@
 		C5BC7C372531B07A00279933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C352531B07A00279933 /* Main.storyboard */; };
 		C5BC7C392531B07E00279933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C382531B07E00279933 /* Assets.xcassets */; };
 		C5BC7C3C2531B07E00279933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C3A2531B07E00279933 /* LaunchScreen.storyboard */; };
+		C5BC7C462531CF9300279933 /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C442531CE9B00279933 /* monkey.mp4 */; };
+		C5BC7C4A2531D51300279933 /* newYorkFlip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C482531D4AD00279933 /* newYorkFlip.mp4 */; };
+		C5BC7C4D2531E62400279933 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC7C4C2531E62400279933 /* VideoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C5BC7C382531B07E00279933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5BC7C3B2531B07E00279933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5BC7C3D2531B07E00279933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BC7C442531CE9B00279933 /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
+		C5BC7C482531D4AD00279933 /* newYorkFlip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newYorkFlip.mp4; sourceTree = "<group>"; };
+		C5BC7C4C2531E62400279933 /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,11 @@
 				C5BC7C2F2531B07A00279933 /* AppDelegate.swift */,
 				C5BC7C312531B07A00279933 /* SceneDelegate.swift */,
 				C5BC7C332531B07A00279933 /* ViewController.swift */,
+				C5BC7C4C2531E62400279933 /* VideoHelper.swift */,
 				C5BC7C352531B07A00279933 /* Main.storyboard */,
 				C5BC7C382531B07E00279933 /* Assets.xcassets */,
+				C5BC7C442531CE9B00279933 /* monkey.mp4 */,
+				C5BC7C482531D4AD00279933 /* newYorkFlip.mp4 */,
 				C5BC7C3A2531B07E00279933 /* LaunchScreen.storyboard */,
 				C5BC7C3D2531B07E00279933 /* Info.plist */,
 			);
@@ -124,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BC7C4A2531D51300279933 /* newYorkFlip.mp4 in Resources */,
+				C5BC7C462531CF9300279933 /* monkey.mp4 in Resources */,
 				C5BC7C3C2531B07E00279933 /* LaunchScreen.storyboard in Resources */,
 				C5BC7C392531B07E00279933 /* Assets.xcassets in Resources */,
 				C5BC7C372531B07A00279933 /* Main.storyboard in Resources */,
@@ -140,6 +151,7 @@
 				C5BC7C342531B07A00279933 /* ViewController.swift in Sources */,
 				C5BC7C302531B07A00279933 /* AppDelegate.swift in Sources */,
 				C5BC7C322531B07A00279933 /* SceneDelegate.swift in Sources */,
+				C5BC7C4D2531E62400279933 /* VideoHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
