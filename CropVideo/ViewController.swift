@@ -23,13 +23,8 @@ class ViewController: UIViewController {
         let videoAsset = AVAsset(url: inputURL)
         let clipVideoTrack = videoAsset.tracks(withMediaType: .video ).first! as AVAssetTrack
         
-//        let transform1 = CGAffineTransform(translationX: clipVideoTrack.naturalSize.height, y: (clipVideoTrack.naturalSize.width - clipVideoTrack.naturalSize.height) / 2)
-//        let transform2 = transform1.rotated(by: .pi / 2)
-//        let finalTransform = transform2
-        
         let instruction = VideoHelper.videoCompositionInstruction(clipVideoTrack, asset: videoAsset)
         instruction.setOpacity(0.0, at: videoAsset.duration)
-//        instruction.setTransform(finalTransform, at: .zero)
 
         let mainInstruction = AVMutableVideoCompositionInstruction()
         mainInstruction.timeRange = CMTimeRangeMake(start: .zero, duration: videoAsset.duration)
